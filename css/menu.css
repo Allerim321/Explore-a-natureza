@@ -1,0 +1,22 @@
+
+.menu{
+    margin: 2rem 0 2rem auto;
+    max-width: var(--width);
+    background-color: var(--background-green);
+}
+
+.menulist{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menulink a{
+    padding: 10px;
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 1.6px;
+    text-align: left;
+}

@@ -1,0 +1,79 @@
+
+.conteudo{
+    margin-left: 100px;
+    display: flex;
+    display: block;
+}
+
+.img{
+    height: 600px;
+    margin-top: 50px;
+    margin-right: 35px;
+    overflow-x: hidden;
+}
+
+.img2:nth-of-type(1){
+    background: url(/img/natureza.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1100px;
+}
+
+.img2:nth-of-type(2){
+    background: url(/img/praias.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1100px;
+}
+
+.img2:nth-of-type(3){
+    background: url(/img/montanhas.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1100px;
+}
+
+.img2:nth-of-type(4){
+    background: url(/img/Florestas.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1100px;
+}
+
+.titulo-explore{
+    flex-wrap: wrap;
+    font-family: var(--font-display);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.title{
+    font-size: 32px;
+    color: var(--color-brown);
+}
+
+.textos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conjunto{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.paragrafo{
+    margin: 10px;
+}
