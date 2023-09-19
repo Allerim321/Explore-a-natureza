@@ -1,5 +1,5 @@
-const imagens = document.querySelectorAll('.js-conteudo li')
-const textos = document.querySelectorAll('.js-conteudo section')
+const imagens = document.querySelectorAll('.js-list li')
+const textos = document.querySelectorAll('.js-content section')
 
 console.log(imagens)
 console.log(textos)

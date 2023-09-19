@@ -91,6 +91,10 @@ p{
     margin: 10px;
 }
 
-js-conteudo section{
+.js-content section{
     display: none;
+}
+
+.js-content section.active{
+    display: block;
 }
