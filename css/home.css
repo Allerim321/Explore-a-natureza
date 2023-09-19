@@ -3,12 +3,11 @@
     margin-left: 100px;
     display: flex;
     display: block;
-    width: 1000px;
+    width: 1400px;
     height: 1500px;
 }
 
 .img{
-    width: 2400px;
     height: 600px;
     margin-top: 50px;
     margin-right: 35px;
@@ -62,7 +61,7 @@
     text-align: left;
 }
 
-.title{
+.mostragem{
     font-size: 32px;
     color: var(--color-brown);
     top: -4px;
