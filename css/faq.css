@@ -1,0 +1,36 @@
+
+.tudofaq{
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.duvidas{
+    font-family: var(--font-display);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.telefone{
+    font-family: var(--font-display);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.pergunta{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-brown);
+    margin: 20px 20px 0 0;
+}
+
+
