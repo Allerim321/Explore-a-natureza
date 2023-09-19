@@ -1,6 +1,6 @@
 
 .menu{
-    margin: 2rem 0 2rem auto;
+    margin: 2rem 0 2rem 6rem;
     max-width: var(--width);
     background-color: var(--background-green);
 }
