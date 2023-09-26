@@ -1,18 +1,13 @@
 
 .conteudo{
     margin-left: 100px;
-    display: flex;
-    display: block;
-    width: 1400px;
-    height: 1500px;
 }
 
 .img{
     height: 600px;
     margin-top: 50px;
     margin-right: 35px;
-    overflow-x: hidden;
-    width: 10000px;
+    overflow-x: scroll;
 }
 
 .img2:nth-of-type(1){
@@ -69,20 +64,22 @@
     font-family: var(--font-display);
     font-weight: 700;
     line-height: 43px;
-    display: flex;
-    align-items: center;
-    margin: 0%;
 }
 
 .textos{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     text-align: left;
     padding-top: 30px;
+    max-width: 1000px;
+}
+
+.textos p{
+    font-size: 20px;
 }
 
 .conjunto{
-    max-width: 1100px;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
 }

@@ -1,9 +1,9 @@
-.tudo-faq {
+.js-text {
     margin: 40px;
     margin-top: 120px;
 }
 
-.tudo-faq > .tópico {
+.js-text > .tópico {
     color: var(--color-title);
     font-size: 50px;
     font-weight: 600;
@@ -26,3 +26,11 @@
 .pr > div {
     margin: 30px 5px;
 }
+
+.js-text div{
+    display: none;
+}
+
+.js-text div.active{
+    display: block;
+} 
