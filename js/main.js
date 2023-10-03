@@ -36,7 +36,7 @@ imagens.forEach((item, indice) =>{
 
  export default function menuMobileInit() {
     const toggle = document.querySelector('.toggle');
-    const menuList = document.querySelector('.menulist');
+    const menuList = document.querySelector('.menulink');
 
     if (toggle && menuList) {
         function toggleMenu() {
