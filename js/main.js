@@ -1,5 +1,4 @@
 
-
 const imagens = document.querySelectorAll('.js-list li')
 const textos = document.querySelectorAll('.js-content section')
 

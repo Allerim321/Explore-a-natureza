@@ -1,5 +1,6 @@
 .contato {
     margin: 40px;
+    flex-wrap: wrap;
 }
 
 .contato > .tópico {
