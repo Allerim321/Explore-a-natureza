@@ -7,12 +7,11 @@
     height: 600px;
     margin-top: 50px;
     margin-right: 35px;
-    overflow-x: scroll;
+    overflow-x: hidden;
 }
 
 .img2:nth-of-type(1){
     background: url(/img/natureza.jpg);
-    background-repeat: no repeat;
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -21,7 +20,6 @@
 
 .img2:nth-of-type(2){
     background: url(/img/praias.jpg);
-    background-repeat: no repeat;
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -30,7 +28,6 @@
 
 .img2:nth-of-type(3){
     background: url(/img/montanhas.jpg);
-    background-repeat: no repeat;
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -39,11 +36,20 @@
 
 .img2:nth-of-type(4){
     background: url(/img/Florestas.jpg);
-    background-repeat: no repeat;
     background-size: cover;
     background-position: center;
     height: 600px;
     width: 1100px;
+}
+
+.img::-webkit-scrollbar{
+    background-color: #D9D9D9;
+
+}
+
+.img::-webkit-scrollbar-thumb{
+    background-color: #2FA97C;
+    border-radius: 10px;
 }
 
 .titulo-explore{
@@ -76,16 +82,13 @@
 
 .textos p{
     font-size: 20px;
+    margin: 10px;
 }
 
 .conjunto{
     max-width: 1200px;
     display: flex;
     flex-direction: row;
-}
-
-p{
-    margin: 10px;
 }
 
 .js-content section{

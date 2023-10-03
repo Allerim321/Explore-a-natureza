@@ -19,4 +19,10 @@
     line-height: 21px;
     letter-spacing: 1.6px;
     text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.menulink span{
+    padding: 4px;
 }
