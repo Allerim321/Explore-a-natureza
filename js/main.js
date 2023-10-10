@@ -49,3 +49,36 @@ imagens.forEach((item, indice) =>{
         toggle.addEventListener('click', toggleMenu);
     }
 }
+
+// criando as variáveis form e dados
+const form = document.querySelector('.form')
+const dados = {}
+
+// criando uma função para pegar os eventos do formulário
+function pegarForm(event){
+    dados[event.target.name] = event.target.value
+    console.log(dados)
+}
+
+// utilizando a função addEventListener para converter na linguagem JSON e salvar os dados
+form.addEventListener('change', pegarForm)
+form.addEventListener('submit', (event) =>{
+    event.preventDefault()
+    localStorage.setItem(dados.email, JSON.stringify(dados))
+})
+
+// const botao=document.querySelector('')
+
+// function mudarNome(){
+//     botao.innerHTML='copiado'
+        // setTimeout(() =>{
+        //     BigInt.innerText='copiar'
+        // }, 2000)
+// }
+
+// botao.addEventListener('click', mudarNome)
+
+// function mostrarConsole(msg){
+//     console.log(msg)
+// }
+// setTimeout(mostrarConsole, 2000)

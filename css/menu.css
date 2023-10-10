@@ -27,24 +27,67 @@
     padding: 4px;
 }
 
-.toggle {
+/* formatando o botão toggle */
+.toggle{
     align-items: center;
     gap: 0.5rem;
     background-color: #494949;
+    color: var(--color-white);
     padding: 0.625rem;
     border-radius: 5px;
     letter-spacing: 0.1rem;
     font-weight: bold;
+    max-width: 100px;
     display: none;
 }
 
+/* definindo a partir de que largura o botão irá aparecer */
 @media screen and (max-width: 768px) {
     .toggle {
         display: flex;
     }
 
-		.menulink{
+	.menulink{
         display: none;
     }
 }
 
+@media screen and (max-width: 768px) {
+
+    .menulink{
+        display: none;
+        animation: fadeOut .3s forwards;
+    }
+
+    .toggle{
+        display: flex;
+    }
+
+    .menulink.active{
+        display: block;
+        position: absolute;
+        top: 69px;
+        left: 0;
+        width: 100%;
+        background-color: var(--background-green);
+        z-index: 100;
+        animation: slideDownMenu .5s forwards;
+    }
+
+    .toggle span.active{
+        animation: slideDownMenu .5s forwards;
+    }
+
+}
+
+@keyframes slideDownMenu {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

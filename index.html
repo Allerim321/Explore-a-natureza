@@ -17,15 +17,16 @@
 <body>
     <!--usando a tag nav para o menu-->
     <nav class="menu">
-        <!-- criando uma classe para transformar em botão -->
-        <div class="toggle">
+        <!--criando uma classe para transformar em botão-->
+        
+        <!--criando uma lista que conterá os links e ícones do menu-->
+        <ul class="menulist">
+            <div class="toggle">
             MENU
             <span class="material-symbols-outlined">
                 menu
             </span>
         </div>
-        <!--criando uma lista que conterá os links e ícones do menu-->
-        <ul class="menulist">
             <li class="menulink">
                 <a href="#"><span class="material-symbols-outlined">
                         eco
@@ -227,9 +228,18 @@
         </div>
     </section>
 
-    <footer>
+<!------------rodapé------------->
+    <footer class="rodape">
         © 2023 - Todos os direitos reservados
     </footer>
+<!--------------formulário------------->
+    <form class="form" action="">
+        <label for="">Email:</label>
+        <input class="form-control" type="email" name="email" id="" placeholder="Digite seu email aqui" required>
+        <label for="">Senha:</label>
+        <input class="form-control" type="password" name="senha" id="" placeholder="Digite sua senha aqui" required>
+        <input class="btn btn-primary" type="submit" value="Entrar">
+    </form>
 
 
     <script type="module" src="./js/main.js"></script>
