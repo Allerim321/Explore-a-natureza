@@ -1,13 +1,5 @@
+import * as tudo from "./main.js"
+import menuMobileInit from "./mobile.js"
 
-import accordionInit from "./modules/accordion.js";
-import tabMenuInit from "./modules/tabmenu.js";
-import menuMobileInit from "./modules/menuMobile.js";
-import { Modal } from "./modules/modal.js";
-
-tabMenuInit()
-accordionInit()
+tudo()
 menuMobileInit()
-
-new Modal('.js-modal', 
-'.modal-close', 
-'.modal-forms').init();
