@@ -108,21 +108,24 @@
 
     .textos{
         margin-left: 0;
+        font-size: 1rem;
     }
 
     .titulo-explore{
-        font-size: 2rem;
+        max-width: 200px;
+        font-size: 20px;
     }
 
     .conjunto-img{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        max-width: 200px;
     }
 
     .img{
-        max-height: 20rem;
-        max-width: 23rem;
+        max-height: 12rem;
+        max-width: 12rem;
     }
 
     .img2{

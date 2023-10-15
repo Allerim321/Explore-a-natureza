@@ -50,23 +50,24 @@ const form = document.querySelector('.js-modal form')
 const dados = {}
 
 //criando uma função para ativar o conteúdo
-function ativarFormulario (indice){
-    form.forEach((item) => {
+function ativarFormulario(){
+    form.forEach((item) =>{
         item.classList.remove('active')
     })
-    form[indice].classList.add('active')
+    form.classList.add('active')
 }
 
 // criando uma função para pegar os eventos do formulário
 function pegarValor(event){
     dados[event.target.name] = event.target.value
     console.log(dados)
-    ativarFormulario(indice)
+    ativarConteudo(indice)
 }
 
 // utilizando a função addEventListener para converter na linguagem JSON e salvar os dados
 form.addEventListener('change', pegarValor)
 form.addEventListener('submit', (event) =>{
-    event.preventDefault()
+    event.preventDefault();
     localStorage.setItem(dados.email, JSON.stringify(dados))
+    form.classList.remove('active');
 })

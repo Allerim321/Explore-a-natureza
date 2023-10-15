@@ -41,6 +41,16 @@
     display: none;
 }
 
+@media screen and (max-width: 768px) {
+    .toggle {
+        display: flex;
+    }
+
+	.js-lista{
+        display: none;
+    }
+}
+
 /* definindo a partir de que largura o botão irá aparecer */
 @media screen and (max-width: 768px) {
 
