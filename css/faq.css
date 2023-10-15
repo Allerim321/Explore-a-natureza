@@ -34,3 +34,10 @@
 .js-text div.active{
     display: block;
 } 
+
+@media screen and (max-width: 768px) {
+    .pr{
+        max-width: 200px;
+        font-size: 15px;
+    }
+}

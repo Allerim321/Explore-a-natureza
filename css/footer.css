@@ -9,3 +9,10 @@
     font-weight: 400;
     font-family: var(--font-primary);
 }
+
+@media screen and (max-width: 768px) {
+    .rodape{
+        font-size: 10px;
+        max-width: 200px;
+    }
+}
