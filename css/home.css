@@ -106,9 +106,12 @@
         margin-right: 10px;
     }
 
+    .textos{
+        margin-left: 0;
+    }
+
     .titulo-explore{
         font-size: 2rem;
-        max-width: 2rem;
     }
 
     .conjunto-img{
@@ -118,8 +121,8 @@
     }
 
     .img{
-        max-height: 200px;
-        max-width: 200px;
+        max-height: 20rem;
+        max-width: 23rem;
     }
 
     .img2{

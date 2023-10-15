@@ -232,16 +232,20 @@
     <footer class="rodape">
         © 2023 - Todos os direitos reservados
     </footer>
+
 <!--------------formulário------------->
-    <form class="form" action="">
+<div class=" modal js-modal">
+    <span class="material-symbols-outlined modal-close">
+        close
+    </span>
+    <form class="modal-forms">
+        <h3>RECEBA NOTIFICAÇÕES:</h3>
         <label for="">Email:</label>
-        <input class="form-control" type="email" name="email" id="" placeholder="Digite seu email aqui" required>
-        <label for="">Senha:</label>
-        <input class="form-control" type="password" name="senha" id="" placeholder="Digite sua senha aqui" required>
-        <input class="btn btn-primary" type="submit" value="Entrar">
+        <input name="email" type="email" placeholder="Insira seu email" required="">
+        <input type="submit" value="Enviar">
     </form>
-
-
+    <div id="msg"></div>
+</div>
     <script type="module" src="./js/main.js"></script>
 </body>
 </html>
