@@ -22,7 +22,7 @@ imagens.forEach((item, indice) =>{
 })
 ////////////////////////////////////////////////////////////////////////////////////////////
 
-//NAV
+//FAQ
 //criando variáveis
  const titulos = document.querySelectorAll('.js-text nav')
  const respostas = document.querySelectorAll('.js-text div')
