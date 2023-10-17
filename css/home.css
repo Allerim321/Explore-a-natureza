@@ -31,7 +31,6 @@
     display: flex;
     flex-direction: column;
     text-align: left;
-    max-width: 800px;
     padding-top: 30px;
     margin-left: 35px;
 }
@@ -39,13 +38,19 @@
 .textos p{
     font-size: 20px;
     margin: 10px;
+    max-width: 850px;
 }
 
 /* formatando as imagens */
-.img{
-    height: 600px;
-    margin-top: 50px;
+.img {
+    max-width: 300px;
+    max-height: 500px;
     overflow-x: hidden;
+    /* Oculta a barra de rolagem horizontal. */
+}
+
+.img2 {
+    height: 600px;
 }
 
 .conjunto-img{
@@ -59,38 +64,6 @@
 
 .js-content section.active{
     display: block;
-}
-
-.img2:nth-of-type(1){
-    background: url(/img/natureza.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    width: 23rem;
-}
-
-.img2:nth-of-type(2){
-    background: url(/img/praias.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    width: 23rem;
-}
-
-.img2:nth-of-type(3){
-    background: url(/img/montanhas.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    width: 23rem;
-}
-
-.img2:nth-of-type(4){
-    background: url(/img/Florestas.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    width: 23rem;
 }
 
 .img::-webkit-scrollbar{
