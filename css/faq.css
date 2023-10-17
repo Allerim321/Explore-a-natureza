@@ -1,3 +1,4 @@
+/* definindo as propriedades dos elementos do faq */
 .js-text {
     margin: 40px;
     margin-top: 120px;
@@ -35,6 +36,7 @@
     display: block;
 } 
 
+/* caso a tela seja de 768px ou menos, as propriedades serão mudadas */
 @media screen and (max-width: 768px) {
     .pr{
         max-width: 200px;

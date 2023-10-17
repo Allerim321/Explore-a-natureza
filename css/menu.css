@@ -1,3 +1,4 @@
+/* formatando o menu e definindo propriedades dos elementos */
 .menu{
     margin: 2rem 0 2rem 6rem;
     max-width: var(--width);

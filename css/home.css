@@ -1,8 +1,10 @@
+/* formatando o conteúdo principal */
 .conteudo{
     margin-left: 100px;
     margin-right: 260px;
 }
 
+/* propriedades do título */
 .titulo-explore{
     display: flex;
     flex-wrap: wrap;
@@ -14,6 +16,7 @@
     text-align: left;
 }
 
+/* títulos e textos de fontes menores */
 .mostragem{
     font-size: 32px;
     color: var(--color-brown);
@@ -38,6 +41,7 @@
     margin: 10px;
 }
 
+/* formatando as imagens */
 .img{
     height: 600px;
     margin-top: 50px;
